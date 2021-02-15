@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 
 function getRoomRate() {
-  fetch(endpoint_url + "/rooms/roomcountbytype")
+  fetch(endpoint_url + "/rooms/roomcount")
   .then(status)
   .then(json)
   .then(function(data){
